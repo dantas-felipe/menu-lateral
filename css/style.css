@@ -7,127 +7,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    background: #132835;
-    padding: 20px;
-    width: 100%;
-    height: 70px;
+html{
+    scroll-behavior: smooth;
 }
 
-.left h3{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.375rem;
-    font-weight: 800;
-    text-align: center;
+body{
+  background: #07131a;
 }
 
-.left span{
-    color: #51b3ec;
-}
 
-.btn_sair{
-    padding: 5px;
-    background: #51b3ec;
-    text-decoration: none;
-    float: right;
-    border-radius: 2px;
-    font-size: 15px;
-    color: #fff;
-    transition: 0.5s;
-}
 
-.btn_sair:hover{
-    background: #4a9fcf;
-}
 
-.sidebar{
-    position: fixed;
-    width: 250px;
-    height: 100%;
-    margin-top: 70px;
-    padding-top: 30px;
-    left: 0%;
-    background: #193446;
-    transition: 0.5s;
-}
 
-.sidebar .image{
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-}
 
-.sidebar h2{
-    color: #ccc;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
 
-.sidebar a{
-    color: #fff;
-    display: block;
-    width: 100%;
-    line-height: 60px;
-    text-decoration: none;
-    padding-left: 40px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
 
-.sidebar a:hover{
-    background: #51b3ec;
-}
 
-.sidebar ion-icon{
-    padding-right: 10px;
-}
-
-label #btn_sidebar{
-    z-index: 1;
-    position: fixed;
-    color: #fff;
-    font-size: 2rem;
-    margin: 5px auto;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-label #btn_sidebar:hover{
-    color: #51b3ec;
-}
-
-#check:checked~ .sidebar{
-    left: -190px;
-}
-
-#check:checked~ .sidebar a span{
-    display: none;
-}
-
-#check:checked~ .sidebar a{
-    font-size: 20px;
-    margin-left: 170px;
-    width: 80px;
-}
-
-.content{
-    background: url(/img/157308.jpg) no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-
-#check:checked~ .content{
-    margin-left: 60px;
-}
-
-#check{
-    display: none;
-}
 
 
